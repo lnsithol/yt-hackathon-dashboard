@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# YT Hackathon Dashboard
+
+## Overview
+
+YT Hackathon Dashboard is a web application built with Next.js to visualize and manage data related to YouTube hackathons. This dashboard provides interactive charts, graphs, and possibly word clouds to represent hackathon-related information.
+
+## Technologies Used
+
+- Next.js 14.2
+- React 18
+- TypeScript
+- D3.js and D3-cloud for data visualization
+- Recharts for creating charts and graphs
+- Tailwind CSS for styling
+- Radix UI for accessible UI components
+
+## Prerequisites
+
+- Node.js (version 14 or later recommended)
+- npm or yarn
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+   ```
+   git clone https://github.com/your-username/yt-hackathon-dashboard.git
+   cd yt-hackathon-dashboard
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   ```
+   npm install
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+   or if you're using yarn:
 
-## Learn More
+   ```
+   yarn install
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. Run the development server:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```
+   npm run dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   or
 
-## Deploy on Vercel
+   ```
+   yarn dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Available Scripts
+
+- `npm run dev` or `yarn dev`: Runs the app in development mode.
+- `npm run build` or `yarn build`: Builds the app for production.
+- `npm start` or `yarn start`: Runs the built app in production mode.
+- `npm run lint` or `yarn lint`: Runs the linter to check for code quality issues.
+
+## Project Structure
